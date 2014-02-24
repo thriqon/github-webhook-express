@@ -1,3 +1,11 @@
 language: node_js
 node_js:
   - 0.10
+deploy:
+  provider: npm
+  email: github@jonasw.de
+  api_key:
+    secure: Edf59PH8zrE0GzFz7VQ79mthrq4MhE5fPFiUjRrqS114/96WjGwDvjLjbtttsfP3v3v2wB2hnqxTGUgIpIavfxI3W1bEnUkc7IPUPUiHgamU4p5Fv/6J7M4191Eckhp+ww7T3l/VEfd3bV1/2ess9xU4DDf4B5xujELCj7s9cpU=
+  on:
+    tags: true
+    repo: thriqon/github-webhook-express
