@@ -1,6 +1,7 @@
-
 GithubWebhooks Express Middleware
 =================================
+
+![TravisCI Build Status](https://travis-ci.org/thriqon/github-webhook-express.png)
 
 Easily authenticate and parse requests
 coming in as Github Webhook POSTs.
